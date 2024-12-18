@@ -20,4 +20,32 @@ public class FileEncryptor {
 	 * Create a program that takes a message and a key from the user.
 	 * Use the key to shift each letter in the users input and save the final result to a file.
 	 */
+	
+	private String file;
+	private int key;
+	
+	public FileEncryptor(String file, int key) {
+		this.file = file;
+		this.key = key;
+	}
+
+	
+	
+	public String encrypt(String input, int key) {
+		CharSequence cs = input;
+		return null;
+	}
+	
+	
+	
+	
+	
+	
+	
+	//only use for debugging
+	public int getKey() {
+		return key;
+	}
+	
+	
 }
