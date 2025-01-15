@@ -9,3 +9,4 @@ public class LeagueToken {
 		hacker.hack();
 	}
 }
+//Copyright © 2025 Bryan Nguyen

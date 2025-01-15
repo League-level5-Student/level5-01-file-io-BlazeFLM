@@ -1,9 +1,12 @@
 package _05_Serialization;
 
+import java.io.Serializable;
+
 /*
  * Complete this class so that it can be serialized.
  */
-public class MinecraftCreeper {
+public class MinecraftCreeper implements Serializable {
+	
 	public String name;
 	public int xPosition;
 	public int yPosition;
@@ -18,3 +21,4 @@ public class MinecraftCreeper {
 		this.health = 100.0;
 	}
 }
+//Copyright © 2025 Bryan Nguyen

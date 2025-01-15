@@ -83,3 +83,4 @@ public class FileEncryptor {
 	}
 
 }
+//Copyright © 2025 Bryan Nguyen

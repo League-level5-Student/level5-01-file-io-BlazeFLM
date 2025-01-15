@@ -65,3 +65,4 @@ public class Serialization {
 		}
 	}
 }
+//Copyright © 2025 Bryan Nguyen

@@ -92,3 +92,4 @@ public class FileDecryptor {
 		return output;
 	}
 }
+//Copyright © 2025 Bryan Nguyen
