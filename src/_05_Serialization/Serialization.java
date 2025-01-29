@@ -38,7 +38,7 @@ public class Serialization {
 		assertEquals(250, creeper.yPosition);
 		assertEquals(0, creeper.zPosition);
 	}
-
+	
 	/*
 	 * One simple way to save a serializable object to a file is using a FileOutputStream
 	 * and ObjectOutputStream.
@@ -50,7 +50,7 @@ public class Serialization {
 			e.printStackTrace();
 		}
 	}
-
+	
 	private static MinecraftCreeper load() {
 		try (FileInputStream fis = new FileInputStream(new File(DATA_FILE)); ObjectInputStream ois = new ObjectInputStream(fis)) {
 			return (MinecraftCreeper) ois.readObject();
